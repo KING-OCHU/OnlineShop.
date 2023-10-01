@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL SHOP | CONTACT </title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="shortcut icon" href="asset/img/favicon.png" type="image/x-icon">
+    <meta name="Author" content="SAM OCHU"/>
+    <meta name="title" content="Digital Shop.">
+    <meta name="description" content="This is Handen online shop. You can order something around Handen Town.">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+<body>
+      <header>
+          <h1> DIGITAL SHOP </h1>
+          </header>
+          
+      <nav>
+         <p style="float: right">
+            <a href="home.html"> Home </a> |
+            <a href="cart.html"> Cart </a> |
+            <a href="about.html"> About </a> |
+            <a href="contact.html"> Contact Us </a> |
+            <a href="privacy.html"> Terms and Privacy Policy of Services </a>
+         </p>
+      </nav>
+   
+
+  <br>
+   
+
+  
+
+    
+    <select id="color" onchange="display()"> 
+            <option value="Select Color">Change Background Color</option> 
+            
+            <option value="yellow">Yellow</option> 
+            
+            <option value="green">Green</option> 
+            
+            <option value="pink">Pink</option> 
+            
+            <option value="lightblue">Light blue</option>
+            
+            <option value="Orange">Orange</option>
+            
+            </select> 
+            
+            
+            <script type="text/javascript"> function display() { var value = document.getElementById("color").value; if (value != "Select Color") { document.bgColor = value; document.cookie = "color=" + value; } } window.onload = function () { if (document.cookie.length != 0) { var array = document.cookie.split("="); document.getElementById("color").value = array[1]; document.bgColor = array[1]; } } 
+            </script> 
