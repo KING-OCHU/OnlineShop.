@@ -1,0 +1,147 @@
+body {
+    front-family: Arial, sans-serif;
+    padding: 10px;
+    margin: 0;
+    
+}
+
+header{
+  background-color: orangered;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    top: 0%;
+    width: 100%;
+    border-bottom:#e8491d 3px solid;
+}
+
+.header{
+  background: orange;
+  color:#ffffff;
+  padding-top:30px;
+  border-bottom:#e8491d 3px solid;
+  
+  width: 100%;
+}
+
+nav{
+   position: fixed;
+    padding: 10px;
+    width: 100%;
+    background-color: oranged;
+    top: 90px;
+}
+
+nav p{
+    background-color: orange;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.an{
+    animation: cycle;
+    animation-delay: 5sc;
+    animation-duration: 10sc;
+}
+
+.item{
+     margin: 0 auto;
+    padding: 4px;
+    justify-content: center;
+    box-shadow: 0 0 40px purple;
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+    width: 45%;
+    height: 200px;
+    float: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.item{
+    background: orange;
+}
+
+.items{
+    background: orange;
+}
+
+.sent{
+    background-color: fuchisia;
+}
+
+.itemt{
+    box-shadow: 0 0 22px grey;
+    width: 45%;
+    height: 200px;
+    float: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0 auto;
+    padding: 4px;
+    justify-content: center;
+    box-shadow: 0 0 40px purple;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.items{
+    box-shadow: 0 0 22px green;
+    width: 45%;
+    height: 200px;
+    float: right;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0 auto;
+    padding: 4px;
+    justify-content: center;
+    box-shadow: 0 0 40px purple;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.items img{
+    width: 95%;
+    height: 60%;
+    color: darkcyan;
+    background: tan;
+    
+}
+
+.item img{
+    width: 95%;
+    height: 60%;
+    color: darkcyan;
+    background: tan;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    color: maroon;
+    background: grey;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    
+    padding: 10px;
+    
+    }
